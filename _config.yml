@@ -18,12 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fcrios
+title: fcrios
 email: fcrios145@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog acerca de cualquier cosa relacionada al desarrollo de software. Principalmente
-  desarrollo web, aunque me gusta escribir de temas variados como filosofia y 
-  noticias del mundo de la tecnologia.
+  desarrollo web, aunque me gusta escribir de temas variados y noticias del 
+  mundo de la tecnologia.
+
+lang: es-MX
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -33,6 +35,8 @@ markdown: CommonMark
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
 
