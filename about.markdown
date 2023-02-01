@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
+title: Acerca de mi
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Mi nombre es Francisco Rios. Trabajo como desarrollador de software,
+principalmente como desarrollador web aunque en el transcurso de mi carerra
+profesional he trabajado en areas distintas al ambito web.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+[twitter](https://github.com/jekyll/minima)
 
 You can find the source code for Jekyll at GitHub:
 [jekyll][jekyll-organization] /
