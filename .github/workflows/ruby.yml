@@ -35,9 +35,10 @@ jobs:
 
       # use jekyll-action-ts to build
       # https://github.com/limjh16/jekyll-action-ts
-      - uses: limjh16/jekyll-action-ts@v2
-        with:
-          enable_cache: true
+      - name: run build
+        run: |
+          bundle install
+          jekyll build
 
       - name: copy file via ssh password
         uses: appleboy/scp-action@master
