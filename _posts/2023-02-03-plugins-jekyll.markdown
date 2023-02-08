@@ -5,10 +5,11 @@ date:   2023-02-02 15:54:58 -0600
 categories: jekyll plugins howto como tutorial
 ---
 
-## Para que sirve un plugin de Jekyll?
+### Para que sirve un plugin de Jekyll?
 Básicamente para modificar ciertas funcionalidades del framework, por ejemplo
 en mi caso específico lo necesite para cambiar el idioma de como se imprimía 
 la fecha. Por default me servia pero venia en formato US.
+
 
 Entonces lo que tuve que hacer fue crear un plugin, que es básicamente un archivo
 de tipo ruby, el cual contiene una funcion, y la funcion a su vez necesita tener 
@@ -48,5 +49,5 @@ usando un solo __bracket__ en el ejemplo, __pero deberían ser dos__
 ```
 
 Y listo,  de esa manera tienen un plugin que formatea la fecha por default,
-en ingles a español o cualquier otro idioma que quieran.
+de ingles a español o cualquier otro idioma que quieran.
 
