@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Anatomia de los unit tests"
+date:   2023-07-04 15:54:58 -0600
+categories: angular unittest unit test anatomy
+---
+
+# Anatomia de una unit test en angular
+
+Ya sea algun framework en este caso Angular o un lenguaje de programación. Es importante tener en
+cuenta las tres reglas principales de una buena prueba unitaria. La cual consta de 3 simples pero
+muy importantes guidelines.
+Las cuales son:
+
+* Arrange
+* Act
+* Assert
