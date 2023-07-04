@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anatomia de los unit tests"
-date:   2023-07-04 15:54:58 -0600
+date:   2023-07-03 00:00:58 -0600
 categories: angular unittest unit test anatomy
 ---
 
