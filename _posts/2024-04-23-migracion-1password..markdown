@@ -11,12 +11,12 @@ tengo el plan familiar, ya que lo comparto con un familiar. Sin embargo, hace al
 que he instalado en mi oficina para que funcione como un servidor local, en el cual pueda instalar la mayoría de los
  servicios que uso en mi día a día en internet.
 
-El principal problema al instalar Bitwarden de manera local es que de alguna manera tengo que hacerlo accesible a 
+El principal problema al instalar Bitwarden de manera local es que de alguna forma tengo que hacerlo accesible a 
 internet. Ya cuento con WireGuard instalado en el servidor, el cual me ayudaría a conectarme de manera remota. Sin 
 embargo, surge el problema de los certificados. VaultWarden o Bitwarden requieren forzosamente certificados SSL.
-* Si lo hago de manera local, exponiéndolo solamente a través de WireGuard, entonces no puedo generar certificados 
-* con Let's Encrypt, tendría que generarlos yo mismo e instalar esos certificados de manera manual en mis otros dispositivos.
-* Si abro los puertos (80, 443) en el router, eso podría conllevar algún ataque.
+* Si lo hago de forma local, exponiéndolo solamente a través de WireGuard, entonces no puedo generar certificados 
+* con Let's Encrypt, tendría que generarlos yo mismo e instalar esos certificados de forma manual en mis otros dispositivos.
+* Si abro los puertos (80, 443) en el router, eso me dejaria expuesto de cierta forma a algún ataque.
 
 # Conclusión
 Las dos posibles soluciones son:
