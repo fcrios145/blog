@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pasos para agregar una funcion reusable en devc++"
-date: 2024-06-28 15:54:58 -0600
+date: 2024-06-27 15:54:58 -0600
 categories: devcpp devc++ staticlibrary espanol c++
 ---
 
